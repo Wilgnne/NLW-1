@@ -7,6 +7,7 @@ import Routes from '../routes';
 function App() {
   return (
     <Container>
+      {process.env.PUBLIC_URL}
       <Routes />
     </Container>
   );
