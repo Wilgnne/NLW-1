@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.525ba840.chunk.css",
-    "main.js": "./static/js/main.3cccbd13.chunk.js",
-    "main.js.map": "./static/js/main.3cccbd13.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.74da35bd.js",
-    "runtime-main.js.map": "./static/js/runtime-main.74da35bd.js.map",
-    "static/js/2.2395c362.chunk.js": "./static/js/2.2395c362.chunk.js",
-    "static/js/2.2395c362.chunk.js.map": "./static/js/2.2395c362.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.529ba4e1b1b4decf622afd85d94273b0.js": "./precache-manifest.529ba4e1b1b4decf622afd85d94273b0.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.525ba840.chunk.css.map": "./static/css/main.525ba840.chunk.css.map",
-    "static/js/2.2395c362.chunk.js.LICENSE.txt": "./static/js/2.2395c362.chunk.js.LICENSE.txt",
-    "static/media/home-background.svg": "./static/media/home-background.0f45e296.svg",
-    "static/media/logo.svg": "./static/media/logo.4abe4251.svg"
+    "main.css": "nlw-1/static/css/main.525ba840.chunk.css",
+    "main.js": "nlw-1/static/js/main.bd285fba.chunk.js",
+    "main.js.map": "nlw-1/static/js/main.bd285fba.chunk.js.map",
+    "runtime-main.js": "nlw-1/static/js/runtime-main.71aaaf1c.js",
+    "runtime-main.js.map": "nlw-1/static/js/runtime-main.71aaaf1c.js.map",
+    "static/js/2.088f31c3.chunk.js": "nlw-1/static/js/2.088f31c3.chunk.js",
+    "static/js/2.088f31c3.chunk.js.map": "nlw-1/static/js/2.088f31c3.chunk.js.map",
+    "index.html": "nlw-1/index.html",
+    "precache-manifest.efef418f713bab12d1598c9a4600d833.js": "nlw-1/precache-manifest.efef418f713bab12d1598c9a4600d833.js",
+    "service-worker.js": "nlw-1/service-worker.js",
+    "static/css/main.525ba840.chunk.css.map": "nlw-1/static/css/main.525ba840.chunk.css.map",
+    "static/js/2.088f31c3.chunk.js.LICENSE.txt": "nlw-1/static/js/2.088f31c3.chunk.js.LICENSE.txt",
+    "static/media/home-background.svg": "nlw-1/static/media/home-background.0f45e296.svg",
+    "static/media/logo.svg": "nlw-1/static/media/logo.4abe4251.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.74da35bd.js",
-    "static/js/2.2395c362.chunk.js",
+    "static/js/runtime-main.71aaaf1c.js",
+    "static/js/2.088f31c3.chunk.js",
     "static/css/main.525ba840.chunk.css",
-    "static/js/main.3cccbd13.chunk.js"
+    "static/js/main.bd285fba.chunk.js"
   ]
 }
