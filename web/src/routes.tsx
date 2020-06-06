@@ -7,7 +7,7 @@ import CreatePoint from './pages/CreatePoint';
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Route component={Home} path={`${process.env.PUBLIC_URL}/`} exact />
+      <Route component={Home} path={`${process.env.PUBLIC_URL}`} exact />
       <Route component={CreatePoint} path={`${process.env.PUBLIC_URL}/create`} />
     </BrowserRouter>
   );
