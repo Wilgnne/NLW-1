@@ -16,6 +16,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Open ReactJS Project
+      run: cd web/
     - name: Install Packages
       run: npm install
     - name: Deploy to GH Pages
