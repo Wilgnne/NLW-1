@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a66ea52ce1ef26be012340fdf3313dee",
+    "revision": "58bea710cce2952999efc0ccfb5d2e8b",
     "url": "https://wilgnne.github.io/nlw-1/index.html"
   },
   {
-    "revision": "e24f09e3c3793d70e407",
+    "revision": "fd0465a704c7bc6859e3",
     "url": "https://wilgnne.github.io/nlw-1/static/css/main.525ba840.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://wilgnne.github.io/nlw-1/static/js/2.1e41f63f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e24f09e3c3793d70e407",
-    "url": "https://wilgnne.github.io/nlw-1/static/js/main.759cb07a.chunk.js"
+    "revision": "fd0465a704c7bc6859e3",
+    "url": "https://wilgnne.github.io/nlw-1/static/js/main.4584f856.chunk.js"
   },
   {
     "revision": "de7cb7a49124afb6a057",
