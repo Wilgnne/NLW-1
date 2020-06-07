@@ -3,21 +3,34 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import { Container } from './styles';
 
-const state = {
-  lat: -32.0407782,
-  lng: -52.1016753,
-  zoom: 13,
+interface MapProps {
+  center: [number, number],
+  zoom: number,
+  markings?: [[number, number]],
+  onClick?: any
 }
 
-const Maps: React.FC = () => {
+const Maps: React.FC<MapProps> = (props) => {
   return (
     <Container>
-      <Map center={[state.lat, state.lng]} zoom={state.zoom}>
+      <Map
+        center={props.center}
+        zoom={props.zoom}
+        onClick={props.onClick}
+      >
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[state.lat, state.lng]} />
+        {props.markings ?
+          props.markings
+            .map((marker, index) =>
+              (
+                <Marker key={index} position={marker} />
+              )
+            ) : undefined
+        }
+
       </Map>
     </Container>
   );
