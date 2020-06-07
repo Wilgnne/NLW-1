@@ -4,9 +4,11 @@ import { Container } from './styles';
 
 interface FieldProps {
   name: string,
-  labelText: string
-  type?: string
-  options?: string[]
+  value?: string | number | string[] | undefined,
+  labelText: string,
+  type?: string,
+  options?: string[],
+  onChange?: ((event: React.ChangeEvent<any>) => void)  | undefined
 }
 
 const Field: React.FC<FieldProps> = (props) => {
@@ -18,25 +20,26 @@ const Field: React.FC<FieldProps> = (props) => {
         <select
           name={props.name}
           id={props.name}
+          value={props.value}
+          onChange={props.onChange}
         >
           {props.options ?
-            props.options.map((op, index) => {
-              return (
-                <option
-                  key={index}
-                  value={index}
-                >
+            props.options.map((op, index) =>
+              (
+                <option key={index} value={op}>
                   {op}
                 </option>
               )
-            })
+            )
             : undefined
           }
         </select> :
         <input
           type={props.type}
           name={props.name}
+          value={props.value}
           id={props.name}
+          onChange={props.onChange}
         />}
 
     </Container>

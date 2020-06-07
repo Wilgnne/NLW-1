@@ -8,9 +8,10 @@ class PointsController {
 
     const parsedItems = String(items)
       .split(',')
-      .map(item => {
-        return Number(item.trim());
-      }
+      .map(item =>
+      (
+        Number(item.trim())
+      )
     );
 
     const points = await knex('points')
