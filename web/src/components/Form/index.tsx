@@ -2,10 +2,16 @@ import React from 'react';
 
 import { Container } from './styles';
 
-const Form: React.FC = ({children}) => {
+interface FormProps {
+  onSubmit?: ((event: React.FormEvent<HTMLFormElement>) => void) | undefined
+}
+
+const Form: React.FC<FormProps> = (props) => {
   return (
-    <Container>
-      {children}
+    <Container
+      onSubmit={props.onSubmit}
+    >
+      {props.children}
     </Container>
   );
 }
