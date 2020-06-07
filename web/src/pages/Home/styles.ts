@@ -25,7 +25,7 @@ const Content = styled.div`
   }
 `;
 
-const Header = styled.div`
+const Header = styled.header`
   margin: 48px 0 0;
 
   @media (max-width: 900px) {
@@ -33,7 +33,7 @@ const Header = styled.div`
   }
 `;
 
-const Main = styled.div`
+const Main = styled.main`
   flex: 1;
   max-width: 560px;
 
