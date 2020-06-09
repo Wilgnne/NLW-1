@@ -24,7 +24,6 @@
 
 ## **:computer: TECNOLOGIAS**
 
-
 #### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
   - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
@@ -59,7 +58,7 @@
   - **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
   - **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-  \* Veja o arquivo <kbd>[package.json](./sources/mobile/package.json)</kbd>
+  \* Veja o arquivo <kbd>[package.json](./mobile/package.json)</kbd>
 
 #### **Utilitários**
 
