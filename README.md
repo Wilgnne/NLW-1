@@ -117,11 +117,9 @@
 - [TypeScript](https://www.typescriptlang.org/docs/home.html)
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [Expo](https://expo.io/learn)
-- [Knex][knex]
+- [Knex](http://knexjs.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [Node](https://nodejs.org/en/)
-- [Celebrate](https://github.com/arb/celebrate)
-- [Joi](https://hapi.dev/module/joi/)
 
 ## **:page_with_curl: LICENÇA**
 
