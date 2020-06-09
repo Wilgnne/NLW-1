@@ -202,7 +202,7 @@ const CreatePoint: React.FC = () => {
                 <Item
                   key={item.id}
                   title={item.title}
-                  src={item.image_url}
+                  src={api.defaults.baseURL + item.image_url}
                   alt={item.title}
                   selected={selectedItems.includes(item.id)}
                   onClick={() => handleSelectItem(item.id)}
