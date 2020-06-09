@@ -7,18 +7,14 @@ import {
   Image,
   SafeAreaView,
   StyleSheet,
-  AppState,
-  Alert
 } from 'react-native';
 import { Feather as Icon } from '@expo/vector-icons';
-import Constants from 'expo-constants';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 import MapView, { Marker } from 'react-native-maps';
 import { SvgUri } from 'react-native-svg';
-import * as Location from 'expo-location';
 
-import openStreetMap, { Address } from '../../services/openStreetMap';
+import openStreetMap from '../../services/openStreetMap';
 import api from '../../services/api';
 
 const Points: React.FC = () => {
