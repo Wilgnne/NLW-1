@@ -26,3 +26,13 @@ jobs:
         cd web/ && npm run deploy
     - name: Updating Domain
       run: echo "update domain"
+    
+    - name: Deploy to Heroku
+      uses: AkhileshNS/heroku-deploy@v3.0.4
+      with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: ${{secrets.HEROKU_APP_NAME}} #Must be unique in Heroku
+          heroku_email: ${{secrets.EMAIL}}
+          branch: "release" #OPTIONAL and DEFAULT - 'HEAD' (a.k.a your current branch)
+          appdir: "server" #OPTIONAL and DEFAULT - "". This is useful if the api you're deploying is in a subfolder
+
