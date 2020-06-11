@@ -68,7 +68,7 @@ const Detail: React.FC = () => {
 
         <Image style={styles.pointImage}
           source={{
-            uri: data.point.image
+            uri: `${api.defaults.baseURL}${data.point.image}`
           }}
         />
         <Text style={styles.pointName}>{data.point.name}</Text>
