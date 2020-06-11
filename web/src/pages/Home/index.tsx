@@ -2,17 +2,19 @@ import React from 'react';
 import { FiLogIn } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
-import { Container, Content, Header, Main } from './styles';
+import { Container, Content, Main } from './styles';
 
 import logo from '../../assets/logo.svg';
+import Header from '../../components/Header';
 
 const Home: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Header>
-          <img src={logo} alt="Ecoleta"/>
-        </Header>
+        <Header
+          logo={logo}
+          alt="Ecoleta"
+        />
 
         <Main>
           <h1>Seu marketplace de coleta de resíduos.</h1>
