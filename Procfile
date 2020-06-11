@@ -1,0 +1,1 @@
+server: cd server && yarn dev
